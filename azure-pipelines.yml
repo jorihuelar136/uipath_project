@@ -14,7 +14,7 @@ stages:
           vmImage: "windows-latest"
         container:
           image: uipathrobot.azurecr.io/uipathrobot:latest
-          endpoint: robot-container-registry
+          endpoint: sc_acr_uipath
 
         #steps:
         #  - script: C:\UiPath\UiRobot.exe pack $(Build.SourcesDirectory)\project.json -o $(Build.ArtifactStagingDirectory)\ -v 1.0.$(Build.BuildNumber)
